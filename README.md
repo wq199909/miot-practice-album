@@ -1,3 +1,19 @@
+# 练手项目1-相册
+此练手项目为实现网页相册功能，允许使用Vue和React框架
+子功能分四块：
+
+1. 相册列表 10分
+要求：图片/视频 页面大小自适应列表 (bonus 实现瀑布流 10分)
+
+2. 相册查看 20分
+要求：点击弹出查看 (bonus 实现视频自动播放，类型不限 5分)
+
+3. 预览轮播 30分
+要求：预览无限轮播 (bonus 实现轮播动画, 类型不限 5分)
+
+4. 局部放大 40分
+要求：预览时实现类似淘宝/京东的放大镜功能 (仅图片)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
