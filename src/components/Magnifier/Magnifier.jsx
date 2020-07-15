@@ -79,8 +79,8 @@ export default class Magnifier extends Component {
                         style={{
                             width: `${this.state.width * this.props.multiple}px`,
                             height: `${this.state.height * this.props.multiple}px`,
-                            top: `-${this.state.x * this.props.multiple}px`,
-                            left: `-${this.state.y * this.props.multiple}px`,
+                            top: `-${this.state.y * this.props.multiple}px`,
+                            left: `-${this.state.x * this.props.multiple}px`,
                             position: "absolute"
                         }} />
                 </div>

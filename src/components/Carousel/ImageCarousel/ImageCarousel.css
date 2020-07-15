@@ -32,6 +32,10 @@
 .imageCarousel-leftBtn:hover,
 .imageCarousel-rightBtn:hover{
     cursor: pointer;
+    /* opacity: .5; */
+}
+.imageCarousel:hover .imageCarousel-leftBtn,
+.imageCarousel:hover .imageCarousel-rightBtn{
     opacity: .5;
 }
 .imageCarousel-index{
