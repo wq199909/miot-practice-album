@@ -1,5 +1,5 @@
 /**
- * 得到img的大小
+ * 得到img的地址
  * @param {*} url 图片地址
  */
 const img2base64 = async (url) => {
