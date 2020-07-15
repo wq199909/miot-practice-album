@@ -1,0 +1,25 @@
+.magnifier{
+    display: block;
+}
+.magnifier--unshow{
+    display: none;
+}
+.magnifier-mouse{
+    position: absolute;
+    background-color: black;
+    opacity: .5;
+}
+.magnifier-show{
+    position: fixed;
+    /* background-color: black; */
+    transform: translateY(-50%);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    top: 50% 
+}
+.magnifier-show--left{
+    left: 20px;
+}
+.magnifier-show--right{
+    right: 20px;
+}

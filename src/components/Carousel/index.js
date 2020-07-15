@@ -1,4 +1,5 @@
 import ImageCarousel from './ImageCarousel/ImageCarousel'
-export default {
+
+export {
     ImageCarousel
 }

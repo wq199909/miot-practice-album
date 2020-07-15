@@ -24,6 +24,7 @@ class EqualHeightWaterFall extends Component {
         ]
     }
     componentDidMount(){
+        // 监听页面大小改变
         window.addEventListener('resize', ()=>{
             this.setState({
                 parentWidth: window.innerWidth
@@ -31,6 +32,7 @@ class EqualHeightWaterFall extends Component {
         })
     }
     render() {
+        // 得到img jsx数组
         let imgs = this.props.src.map((e, i)=><img 
             src={e} 
             alt="瀑布流" 

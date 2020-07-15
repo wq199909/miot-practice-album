@@ -1,6 +1,9 @@
 .imageCarousel{
     overflow: hidden;
     position: relative;
+    left: 50%;
+    top: 10px;
+    transform: translateX(-50%);
 }
 .imageCarousel-carouselBox{
     overflow: hidden;
